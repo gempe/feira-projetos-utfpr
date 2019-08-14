@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/feira-projetos-utfpr/precache-manifest.55544f101c63cb7ea2a97b2492a62d66.js"
+  "/feira-projetos-utfpr/precache-manifest.03fa9e7485a429c0b35ccde023ebe365.js"
 );
 
 workbox.clientsClaim();
