@@ -4,11 +4,12 @@ import media from 'styled-media-query';
 export const Container = styled.div`
   background-color: #282c34;
   min-height: 100vh;
-  min-width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 0 20px;
+  text-align: center;
 
   ${media.lessThan('medium')`
     padding: 15px;
@@ -20,6 +21,11 @@ export const H1 = styled.h1`
   font-size: 3.5em;
 
   ${media.lessThan('medium')`
+    text-align:center;
+    font-size: 3em;
+  `};
+
+  ${media.lessThan('small')`
     font-size: 2em;
   `};
 `;
@@ -29,6 +35,11 @@ export const H2 = styled.h2`
   font-size: 2.5em;
 
   ${media.lessThan('medium')`
+    text-align:center;
+    font-size: 2em;
+  `};
+
+  ${media.lessThan('small')`
     font-size: 1.3em;
     text-align: center;
   `};
@@ -68,7 +79,7 @@ export const Button = styled.button`
     transition: all 0.4s ease 0s;
   }
 
-  ${media.lessThan('medium')`
+  ${media.lessThan('small')`
     font-size: 1.4em;
     width: ${props => (props.width ? props.width : '150px')};
   `};

@@ -8,7 +8,7 @@ import {
 const Challenge = () => (
   <Container>
     <H2>
-      Basta preencher e enviar o formuláro,
+      Basta preencher e enviar o formulário,
       <Text> se for capaz...</Text>
     </H2>
     <Flex>
