@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { Text, Input } from './styles';
-import {
-  H2, Flex, Button, Container,
-} from '../../shared/styles';
+import { Text } from './styles';
+import { H2, Flex, Container } from '../../shared/styles';
+import Form from '../../components/Form';
 
 const Challenge = () => (
   <Container>
@@ -12,11 +11,7 @@ const Challenge = () => (
       <Text> se for capaz...</Text>
     </H2>
     <Flex>
-      <Input type="text" placeholder="Seu Nome" />
-      <Input type="text" placeholder="Seu Email" disabled />
-      <Button display="none" width="100%">
-        Enviar
-      </Button>
+      <Form />
     </Flex>
   </Container>
 );

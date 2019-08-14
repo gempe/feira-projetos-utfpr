@@ -4,9 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.21.4",
     "node-sass": "^4.12.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "next",
+    "react-dom": "next",
     "react-router-dom": "^5.0.1",
     "react-scripts": "2.0.5",
     "styled-components": "^4.3.2",

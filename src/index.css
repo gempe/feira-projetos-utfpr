@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   background-color: #282c34;
 }
 
 * {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
 .heading {
@@ -24,6 +24,5 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
